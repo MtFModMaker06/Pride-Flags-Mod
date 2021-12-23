@@ -9,7 +9,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class Flags{
-
+ 
 
     public static DeferredRegister<Motive> FLAGS = DeferredRegister.create(ForgeRegistries.PAINTING_TYPES, "pride_flags");
 
