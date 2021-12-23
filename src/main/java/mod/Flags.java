@@ -22,6 +22,7 @@ public class Flags{
     public static RegistryObject<Motive> ASEXAUL = FLAGS.register("asexual", () -> new Motive(64, 48));
     public static RegistryObject<Motive> NONBINARY = FLAGS.register("nonbinary", () -> new Motive(64, 48));
     public static RegistryObject<Motive> AGENDER = FLAGS.register("agender", () -> new Motive(64, 48));
+    public static RegistryObject<Motive> blm = FLAGS.register("blm", () -> new Motive(64, 64));
 
 
     public static void register() {
